@@ -13,7 +13,7 @@ g <- gc(reset = T)
 rm(list = ls())
 options(scipen = 999, warn = -1)
 
-remotes::install_github("dickoa/rhdx")
+# remotes::install_github("dickoa/rhdx")
 library(rhdx)
 
 ### Configuration connection ---------------------------------------------
@@ -87,7 +87,6 @@ coordnts <- function(shp, lvl){
 
 ### To apply the function ------------------------------------------------
 
-
 # West Africa -------------------------------------------------------------
 
 # Uganda ------------------------------------------------------------------
@@ -100,8 +99,8 @@ shp1.uga <- grep('adm1', fles.uga, value = T) %>% st_read()
 shp2.uga <- grep('adm2', fles.uga, value = T) %>% st_read()
 
 ## To calculate the centroids / table
-cnt1 <- coordnts(shp = shp1.uga, lvl = 'ADM1_EN')
-cnt2 <- coordnts(shp = shp2.uga, lvl = 'ADM2_EN')
+cnt1.uga <- coordnts(shp = shp1.uga, lvl = 'ADM1_EN')
+cnt2.uga <- coordnts(shp = shp2.uga, lvl = 'ADM2_EN')
 
 # Kenya -------------------------------------------------------------------
 
