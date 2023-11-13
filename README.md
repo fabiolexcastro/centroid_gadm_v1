@@ -1,1 +1,1 @@
-# centroid_gadm_v1
+# Get the centroids from administrative levels shapefiles
