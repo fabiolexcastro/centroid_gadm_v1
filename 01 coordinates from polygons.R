@@ -124,6 +124,7 @@ write.csv(cnt2.cmr, './tbl/centroids/cmr_cnt_adm2.csv', row.names = FALSE)
 
 # Nigeria -----------------------------------------------------------------
 
+# Download manually from: https://data.humdata.org/dataset/cod-ab-nga
 iso <- 'nga'
 cnt <- 'Nigeria'
 
@@ -142,6 +143,7 @@ write.csv(cnt2.nga, './tbl/centroids/nga_cnt_adm2.csv', row.names = FALSE)
 
 # Ghana -------------------------------------------------------------------
 
+# Download manually from: https://data.humdata.org/dataset/cod-ab-gha
 iso <- 'gha'
 cnt <- 'Ghana'
 
@@ -160,6 +162,7 @@ write.csv(cnt2.gha, './tbl/centroids/gha_cnt_adm2.csv', row.names = FALSE)
 
 # Cote d voire ------------------------------------------------------------
 
+# Download manually from: https://data.humdata.org/dataset/cod-ab-civ
 iso <- 'civ'
 cnt <- 'Cote D Voire'
 
